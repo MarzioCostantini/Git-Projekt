@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto&display=swap');
-
 body {
     margin: 0px;
     font-family: Roboto;
@@ -15,6 +14,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+
     font-family: 'Chelsea Market', cursive;
     font-size: 70px;
     padding: 0;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 .hellblau {
     background-color: #348fd4;
     color: #06406c;
-    padding:80px 0px;
+    padding: 80px 0px;
 }
 
 .hellblau a {
@@ -37,8 +37,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px 15px;
 }
     
-}
-
 .dunkelblau {
     background-color: #06406c;
     text-decoration-line: none;
@@ -57,18 +55,18 @@ header {
     height: 100vh;
 }
 
-header nav{
+header nav {
     text-align: right;
     margin: 15px 25px;
-    margin-bottom:100px
+    margin-bottom: 100px
 }
 
 header a {
-font-size: 20px;
-color: black;
-text-decoration-line: none;
-padding: 0px 25px;
-text-align: right;
+    font-size: 20px;
+    color: black;
+    text-decoration-line: none;
+    padding: 0px 25px;
+    text-align: right;
 }
 
 header h1 {
@@ -94,11 +92,9 @@ header img {
 }
 
 
-
 .dunkelblau p {
     padding-bottom: 100px;
     line-height: 50px;
-
 }
 
 .orange-hell {
@@ -109,8 +105,8 @@ header img {
 
 .orange-hell h2 {
     color: #cc4037;
-    margin: 0px; 
-    padding-bottom: 50px;   
+    margin: 0px;
+    padding-bottom: 50px;
     display: inline-block;
     width: auto;
     color: #cc4037;
@@ -127,7 +123,7 @@ a:hover {
 
 .weiß {
     background-color: white;
-    padding:80px 0px;
+    padding: 80px 0px;
 }
 
 .p-schwarz {
@@ -142,10 +138,35 @@ a:hover {
 .rot-hell {
     background-color: #cc4037;
     color: #4c0d09;
-    padding:80px 0px;
+    padding: 80px 0px;
 }
 
 .rot-hell p {
     width: 960px;
     margin: 30px 240px;
+}
+
+
+/*--Ab hier Dunkelrot*/
+
+.rot {
+    background-color: #4c0d09;
+}
+
+h2 {
+    color: #d3b2af;
+}
+
+.rot p {
+    width: 960px;
+    color: #d3b2af;
+    margin: 40px auto;
+    line-height: 200%;
+}
+
+.rot .white {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
 }
