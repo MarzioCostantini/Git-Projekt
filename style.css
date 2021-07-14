@@ -14,14 +14,6 @@ a {
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-=======
 p {
     margin: 0px;
     line-height: 70px;
@@ -29,7 +21,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 
->>>>>>> 3c40b62b8e76ebb3cf17a134df5f49938324aaf5
     font-family: 'Chelsea Market', cursive;
     font-size: 70px;
     padding: 0;
@@ -60,17 +51,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #06406c;
     text-decoration-line: none;
     color: white;
-<<<<<<< HEAD
     border-radius: 0.3em;
     padding: 5px 15px;
     margin: 15px;
-=======
 }
 
 .dunkelblau h2 {
     color: white;
     padding-top: 50px;
->>>>>>> 3c40b62b8e76ebb3cf17a134df5f49938324aaf5
 }
 
 a {
