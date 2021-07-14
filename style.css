@@ -13,8 +13,12 @@ a {
     font-size: 30px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Chelsea Market', cursive;
     font-size: 70px;
     padding: 0;
@@ -36,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0.3em;
     padding: 5px 15px;
 }
-    
+
 .dunkelblau {
     background-color: #06406c;
     text-decoration-line: none;
@@ -44,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0.3em;
     padding: 5px 15px;
     margin: 15px;
-  
 }
 
 a {
@@ -91,7 +94,6 @@ header img {
     color: white;
 }
 
-
 .dunkelblau p {
     padding-bottom: 100px;
     line-height: 50px;
@@ -110,7 +112,6 @@ header img {
     display: inline-block;
     width: auto;
     color: #cc4037;
-   
     text-decoration: none;
     padding: 10px 15px;
     margin: 20px 0px;
@@ -132,7 +133,6 @@ a:hover {
     border-radius: 0.3em;
     padding: 5px 15px;
     display: inline-block;
-
 }
 
 .rot-hell {
@@ -170,4 +170,42 @@ h2 {
     color: black;
     border-radius: 10px;
     padding: 5px 15px;
+}
+
+
+/*Hier beginnt der Footer*/
+
+footer {
+    background-color: #ffc19f;
+}
+
+h2 {
+    color: #cc4037;
+    font-size: 70px;
+    font-family: 'Chelsea Market', Georgia, serif;
+    text-transform: lowercase;
+}
+
+footer ul li a {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #cc4037;
+    text-decoration: none;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: #7d1f19;
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: lowercase;
+    margin-top: 30px;
 }
