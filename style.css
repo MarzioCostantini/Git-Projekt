@@ -4,6 +4,7 @@ body {
     font-family: Roboto;
     text-align: center;
     font-size: 30px;
+    
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 
 p {
     margin: 0px;
-    line-height: 35px;
+    line-height: 70px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,7 +85,7 @@ header h1 {
 }
 
 header p {
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 header img {
