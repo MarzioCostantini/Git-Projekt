@@ -4,7 +4,6 @@ body {
     font-family: Roboto;
     text-align: center;
     font-size: 30px;
-    
 }
 
 a {
@@ -19,8 +18,12 @@ p {
     line-height: 70px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Chelsea Market', cursive;
     font-size: 70px;
     padding: 0;
@@ -142,7 +145,6 @@ a:hover {
     color: black;
 }
 
-
 .p-schwarz {
     background-color: black;
     color: white;
@@ -155,12 +157,10 @@ a:hover {
     background-color: #cc4037;
     color: #4c0d09;
     padding-bottom: 50px;
-
-   
 }
 
 .rot-hell p {
-     display: inline-block;
+    display: inline-block;
 }
 
 .rot-hell h2 {
