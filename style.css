@@ -10,6 +10,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Chelsea Market', cursive;
     font-size: 70px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.hellblau {
+    background-color: #348fd4;
+    color: #06406c;
+    padding:80px 0px;
 }
 
 a {
@@ -77,4 +86,39 @@ h2 {
     color: #cc4037;
     margin: 0px; 
     padding-bottom: 50px;   
+    display: inline-block;
+    width: auto;
+    color: white;
+    background-color: #06406c;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 20px 0px;
+    border-radius: 0.3em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.weiß {
+    background-color: white;
+    padding:80px 0px;
+}
+
+.p-schwarz {
+    background-color: black;
+    color: white;
+    border-radius: 0.3em;
+    padding: 5px 15px;
+}
+
+.rot-hell {
+    background-color: #cc4037;
+    color: #4c0d09;
+    padding:80px 0px;
+}
+
+.rot-hell p {
+    width: 960px;
+    margin: 30px 240px;
 }
