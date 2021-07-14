@@ -23,30 +23,31 @@
     <main>
         <section class="hellblau">
             <h2>installation</h1>
-            <a href="#">git für OS X herunterladen</a>
-            <a href="#">git für Windows herunterladen</a>
-            <a href="#">git für Linux herunterladen</a>
+                <a href="#">git für OS X herunterladen</a>
+                <a href="#">git für Windows herunterladen</a>
+                <a href="#">git für Linux herunterladen</a>
         </section>
 
         <section class="dunkelblau">
             <h2>neues repository erstelle</h2>
-           <p> erstelle ein neues Verzeichnis, öffne es und führe <br>
-            <span class="p-schwarz" >git init</span> <br>
-            aus, um ein neues git-Repository anzulegen.</p>
+            <p> erstelle ein neues Verzeichnis, öffne es und führe <br>
+                <span class="p-schwarz">git init</span> <br> aus, um ein neues git-Repository anzulegen.</p>
         </section>
 
         <section class="weiß">
             <h2>ein repository auschecken</h1>
-            <p>erstelle eine Arbeitskopie, indem du folgenden Befehl ausführst:</p>
-            <p class="p-schwarz">git clone /pfad/zum/repository</p>
-            <p>Falls du ein entferntes Repository verwendest, benutze:</p>
-            <p class="p-schwarz">git clone benutzername@host:/pfad/zum/repository</p>
+                <p>erstelle eine Arbeitskopie, indem du folgenden Befehl ausführst:</p>
+                <p class="p-schwarz">git clone /pfad/zum/repository</p>
+                <p>Falls du ein entferntes Repository verwendest, benutze:</p>
+                <p class="p-schwarz">git clone benutzername@host:/pfad/zum/repository</p>
         </section>
 
         <section class="rot">
-            Rot
-            Workflow
-            Andre
+            <h2>Workflow</h2>
+            <p>Dein lokales Repository besteht aus drei "Instanzen", die von git verwaltet werden. Die erste ist deine <span class="white">Arbeitskopie</span>, welche die echten Dateien enthält. Die zweite ist der <span class="white">Index</span>, welcher
+                als Zwischenstufe agiert und zu guter Letzt noch der <span class="white">HEAD</span>, der auf deinen letzten Commit zeigt.
+            </p>
+            <img src="img/trees.png" alt="">
         </section>
 
         <section class="rot-hell">
@@ -62,19 +63,15 @@
         <section class="orange-hell">
             <h2>änderungen hochladen</h2>
             <p>Die Änderungen sind jetzt im HEAD deines lokalen Repositories. Um die Änderungen an dein entferntes Repository zu senden, führe: <br>
-                <span class="p-schwarz"> git push origin master </span> <br>
-                aus. Du kannst master auch mit einem beliebigen anderen Branch ersetzen, mehr über Branches erfährst du später.
-                
-                Wenn du dein lokales Repository nicht von einem entfernten geklont hast und du diese aber mit einem anderen Repository verbinden möchtest, musst du dieses mit <br>
-                <span class="p-schwarz" > git remote add origin <server> </span> <br>
-                hinzufügen. Jetzt bist du bereit, deine Änderungen hochzuladen</p>
+                <span class="p-schwarz"> git push origin master </span> <br> aus. Du kannst master auch mit einem beliebigen anderen Branch ersetzen, mehr über Branches erfährst du später. Wenn du dein lokales Repository nicht von einem entfernten geklont
+                hast und du diese aber mit einem anderen Repository verbinden möchtest, musst du dieses mit <br>
+                <span class="p-schwarz"> git remote add origin <server> </span> <br> hinzufügen. Jetzt bist du bereit, deine Änderungen hochzuladen</p>
         </section>
 
     </main>
 
     <footer>
-        Links
-        Andre
+        Links Andre
     </footer>
 
 </body>
